@@ -4,7 +4,7 @@ use 5.007003;
 use strict;
 use warnings;
 
-our $VERSION = do { my @r = (q$Revision: 0.1 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+our $VERSION = do { my @r = (q$Revision: 0.2 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
 our $DEBUG = 1;
 
 use Encode::InCharset::Config;
@@ -13,7 +13,7 @@ use Carp;
 sub import{
     my $class = shift;
     my $callpkg = caller;
-    my @sub = @_ || sort keys %Encode::InCharset::Config::InPM;
+    my @sub = @_ ? @_ : sort keys %Encode::InCharset::Config::InPM;
     for my $sub (@sub){
 	no strict 'refs';
 	my $mod = $Encode::InCharset::Config::InPM{$sub} or

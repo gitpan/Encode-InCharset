@@ -1,5 +1,5 @@
 #
-# $Id: 1-incharset.t,v 0.1 2002/05/03 05:28:21 dankogai Exp dankogai $
+# $Id: 1-incharset.t,v 0.1 2002/05/03 05:28:21 dankogai Exp $
 #
 use 5.007003;
 use strict;

@@ -1,6 +1,10 @@
 #
-# $Id: Changes,v 0.1 2002/05/03 05:12:38 dankogai Exp dankogai $
+# $Id: Changes,v 0.2 2002/05/28 14:57:49 dankogai Exp dankogai $
 #
 
-$Revision: 0.1 $ $Date: 2002/05/03 05:12:38 $
+$Revision: 0.2 $ $Date: 2002/05/28 14:57:49 $
+! InCharset.pm
+  Scalar context vs. List context fix by miyagawa-kun
+  Message-Id: <86n0ul3xum.wl@mail.edge.co.jp>
+2002/05/03 05:12:38
   First CPAN Release
