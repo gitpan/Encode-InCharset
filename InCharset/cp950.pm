@@ -1,9 +1,9 @@
 # This is auto-generated.  Do not edit by hand!
 package Encode::InCharset::cp950;
-our $VERSION = do {my @r = (q$Revision: 0.1 $ =~ /\d+/g); sprintf "%d."."%02d"x$#r, @r};
+our $VERSION = do {my @r = (q$Revision: 0.2 $ =~ /\d+/g); sprintf "%d."."%02d"x$#r, @r};
 sub InCP950{
 	return <<'END';
-0	7F
+0	80
 A7
 AF	B1
 B7
@@ -3791,6 +3791,8 @@ F7
 9FA0
 9FA2
 9FA4
+E000	F848
+F8F8
 FA0C	FA0D
 FE30	FE31
 FE33	FE44

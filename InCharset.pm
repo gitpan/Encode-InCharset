@@ -4,7 +4,7 @@ use 5.007003;
 use strict;
 use warnings;
 
-our $VERSION = do { my @r = (q$Revision: 0.2 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+our $VERSION = do { my @r = (q$Revision: 0.3 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
 our $DEBUG = 1;
 
 use Encode::InCharset::Config;

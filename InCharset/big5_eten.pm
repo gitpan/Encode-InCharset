@@ -1,6 +1,6 @@
 # This is auto-generated.  Do not edit by hand!
 package Encode::InCharset::big5_eten;
-our $VERSION = do {my @r = (q$Revision: 0.1 $ =~ /\d+/g); sprintf "%d."."%02d"x$#r, @r};
+our $VERSION = do {my @r = (q$Revision: 0.2 $ =~ /\d+/g); sprintf "%d."."%02d"x$#r, @r};
 sub InBIG5_ETEN{
 	return <<'END';
 0	A0
@@ -31,8 +31,6 @@ FD	FF
 401
 410	44F
 451
-2008
-200C
 2013	2014
 2018	2019
 201C	201D
@@ -94,7 +92,6 @@ FD	FF
 2640
 2642
 273D
-2760
 2E80
 2E84
 2E86	2E88
@@ -3877,6 +3874,9 @@ FF01	FF3D
 FF3F
 FF41	FF5E
 FFE0	FFE5
+2008A
+200CC
+27607
 END
 }
 1;
